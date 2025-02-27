@@ -5,12 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46694808-2cb8-48a7-85c8-322b44f4bf23" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rafiatu/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/basetest/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/JSONPlaceholderTests/JSONPlaceholderDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/JSONPlaceholderTests/JSONPlaceholderGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/JSONPlaceholderTests/JSONPlaceholderPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/JSONPlaceholderTests/JSONPlaceholderPut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/RequestAPITests/ReqresDeleteTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/RequestAPITests/ReqresGetTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/RequestAPITests/ReqresPostTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/RequestAPITests/ReqresPutTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/schemas/JSONPlaceholder-user-schema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/schemas/Reqres.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/schemas/single-user-schema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/schemas/user-list-schema.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="package" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,21 +48,37 @@
   "associatedIndex": 1
 }]]></component>
   <component name="ProjectId" id="2tdLa8snuyAIhfxrJ0cQxw7ICWS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.JSONPlaceholderDelete.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/RafiatuIbrahim/IdeaProjects/RestAssured/src/test/resources/schemas",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/RafiatuIbrahim/IdeaProjects/RestAssured/src/main/java/com/rafiatu/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\RafiatuIbrahim\IdeaProjects\RestAssured\src\test\resources\schemas" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\RafiatuIbrahim\IdeaProjects\RestAssured\src\test\java\tests\JSONPlaceholderTests" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -50,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740677069019</updated>
-      <workItem from="1740677069873" duration="30000" />
+      <workItem from="1740677069873" duration="4356000" />
     </task>
     <servers />
   </component>

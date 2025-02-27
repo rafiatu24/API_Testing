@@ -1,4 +1,4 @@
-package api.tests.ReqesAPITests;
+package tests.RequestAPITests;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Feature;
