@@ -5,17 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46694808-2cb8-48a7-85c8-322b44f4bf23" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/JSONPlaceholderTests/JJsonSchemaValidationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/RequestAPITests/ReqJsonSchemaValidationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/schemas/jsingle-user-schema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/schemas/juser-list-schema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/JSONPlaceholderTests/PJsonValidationSchemaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ReqresAPITests/RJsonSchemaValidationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RequestAPITests/ReqresGetTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RequestAPITests/ReqresGetTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RequestAPITests/ReqresPostTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RequestAPITests/ReqresPostTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RequestAPITests/ReqresPutTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RequestAPITests/ReqresPutTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/schemas/JSONPlaceholder-user-schema.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/schemas/Reqres.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/JSONPlaceholderTests/JJsonSchemaValidationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/JSONPlaceholderTests/JSONPlaceholderDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/JSONPlaceholderTests/JSONPlaceholderDelete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/JSONPlaceholderTests/JSONPlaceholderGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/JSONPlaceholderTests/JSONPlaceholderGet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/JSONPlaceholderTests/JSONPlaceholderPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/JSONPlaceholderTests/JSONPlaceholderPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/JSONPlaceholderTests/JSONPlaceholderPut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/JSONPlaceholderTests/JSONPlaceholderPut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RequestAPITests/ReqJsonSchemaValidationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RequestAPITests/ReqresDeleteTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ReqresAPITests/ReqresDeleteTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RequestAPITests/ReqresGetTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ReqresAPITests/ReqresGetTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RequestAPITests/ReqresPostTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ReqresAPITests/ReqresPostTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RequestAPITests/ReqresPutTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ReqresAPITests/ReqresPutTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/schemas/single-user-schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/schemas/Rsingle-user-schema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/schemas/user-list-schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/schemas/RUser-list-schema.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +53,7 @@
   "keyToString": {
     "JUnit.JSONPlaceholderDelete.executor": "Run",
     "JUnit.JsonSchemaValidationTest.executor": "Run",
+    "JUnit.RJsonSchemaValidationTest.executor": "Run",
     "JUnit.ReqresDeleteTests.executor": "Run",
     "JUnit.ReqresGetTests.executor": "Run",
     "JUnit.ReqresPostTests.executor": "Run",
@@ -90,17 +96,32 @@
       <command value="mvn allure:serve" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ReqresPutTests (1)">
+  <component name="RunManager" selected="JUnit.RJsonSchemaValidationTest">
+    <configuration name="RJsonSchemaValidationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.ReqresAPITests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.ReqresAPITests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ReqresAPITests.RJsonSchemaValidationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReqresDeleteTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.RequestAPITests.*" />
+          <option name="PATTERN" value="tests.ReqresAPITests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.RequestAPITests" />
-      <option name="MAIN_CLASS_NAME" value="tests.RequestAPITests.ReqresDeleteTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ReqresAPITests.ReqresDeleteTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,12 +131,12 @@
       <module name="RestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.RequestAPITests.*" />
+          <option name="PATTERN" value="tests.ReqresAPITests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.RequestAPITests" />
-      <option name="MAIN_CLASS_NAME" value="tests.RequestAPITests.ReqresGetTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ReqresAPITests.ReqresGetTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,23 +176,20 @@
       <module name="RestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.RequestAPITests.*" />
+          <option name="PATTERN" value="tests.ReqresAPITests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.RequestAPITests" />
-      <option name="MAIN_CLASS_NAME" value="tests.RequestAPITests.ReqresPutTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ReqresAPITests.ReqresPutTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/RestAssured/target/allure-report/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ReqresPutTests (1)" />
+        <item itemvalue="JUnit.RJsonSchemaValidationTest" />
         <item itemvalue="JUnit.ReqresPutTests" />
         <item itemvalue="JUnit.ReqresPostTests" />
         <item itemvalue="JUnit.ReqresGetTests" />
@@ -196,7 +214,8 @@
       <option name="presentableId" value="Default" />
       <updated>1740677069019</updated>
       <workItem from="1740677069873" duration="4356000" />
-      <workItem from="1740733343713" duration="8845000" />
+      <workItem from="1740733343713" duration="13040000" />
+      <workItem from="1740761478387" duration="1842000" />
     </task>
     <servers />
   </component>

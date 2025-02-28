@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>rafiatu</groupId>
+    <groupId>krystov</groupId>
     <artifactId>RESTAssured</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
@@ -77,10 +77,10 @@
                 <groupId>io.qameta.allure</groupId>
                 <artifactId>allure-maven</artifactId>
                 <version>2.12.0</version>
-<!--                <configuration>-->
-<!--                    <reportVersion>2.24.0</reportVersion>-->
-<!--                    <allureResultsDirectory>${project.build.directory}/allure-results</allureResultsDirectory>-->
-<!--                </configuration>-->
+                <configuration>
+                    <reportVersion>2.24.0</reportVersion>
+
+                </configuration>
             </plugin>
         </plugins>
     </build>
